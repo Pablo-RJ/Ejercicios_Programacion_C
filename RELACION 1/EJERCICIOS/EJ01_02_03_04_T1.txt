@@ -1,0 +1,41 @@
+EJERCICIO 1. ¿Que tipo de datos usarıa para representar los valores siguientes?
+a) La altura de un edificio.
+float 
+b) Los añnos de un niño.
+int
+c) El sueldo de un empleado.
+float
+d) Indicar si una persona tiene hijos o no.
+int
+e) La letra de un apartamento.
+char
+
+EJERCICIO 2. Determinar cuales de los siguientes son identificadores validos. Si son invalidos explicar por que.
+a) registro1 
+VALIDO
+b) 1registro 
+NO VALIDO. No se debe empezar el identificador con un numero
+c) archivo_3
+VALIDO 
+d) main
+NO VALIDO. "main" es un nombre reservado en lenguaje C
+e) $impuesto
+NO VALIDO. No se puede poner un caracter especial para iniciar el nombre de un identificador
+f) nombre y direccion
+NO VALIDO. No se puede poner espacios en un identificador
+g) dirección
+NO VALIDO. No se puede poner acentos en un identificador 
+h) diseño
+NO VALIDO. No se puede poner la letra 'ñ' en un identficador
+
+EJERCICIO 3. Declarar una constante llamada NuevaLinea que contenga el carácter de nueva línea. 
+Const char NUEVALINEA = ‘\n
+
+printf("NuevaLinea\n");
+
+EJERCICIO 4. Encontrar el valor de la variable Final después de la ejecución de las siguientes secuencias 
+de sentencias. Todas las variables que aparecen se suponen reales:
+
+a) -10.66667
+
+b) -3.0
