@@ -1,24 +1,4 @@
-<!-- <style>
-  /* Estilos para la tabla */
-  table {
-    border: 1px solid black;
-    border-collapse: collapse;
-  }
-
-  /* Estilos para las celdas */
-  td {
-    border: 1px solid black;
-    padding: 10px;
-    text-align: center;
-  }
-
-  /* Estilos para la primer fila */
-  tr:first-child td {
-    font-weight: bold;
-    background-color: lightgray;
-  }
-</style> -->
-
+<hr width="100%" color="#0000FF" style="border-style:dotted">
 <table>
   <tr>
     <td align="center"><b>EJERCICIOS</b></td>
@@ -63,3 +43,5 @@
     <td></td>
 </table>
 <img src="https://media.giphy.com/media/NTur7XlVDUdqM/giphy.gif" width="300" />
+
+<hr width="100%" color="#0000FF" style="border-style:dotted">
