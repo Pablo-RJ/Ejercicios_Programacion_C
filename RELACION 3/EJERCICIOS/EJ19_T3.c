@@ -5,21 +5,23 @@ programa nos diga su distancia al sol. (Utilizar la sentencia switch).*/
 
 #include <stdio.h>
 
-menu_planetas();
-distancia_planetas();
+int menu_planetas();
+int distancia_planetas(int seleccion);
 
-int main(){
+int main() {
 
-    menu_planetas();
-    distancia_planetas();
-    return(0);
+    int seleccion;
+
+    seleccion = menu_planetas();
+    distancia_planetas(seleccion);
+    
+    return (0);
 }
 
-menu_planetas(){
-
-    int planeta;
-    do{
-        printf("Elija un planeta de los que se muestran a continuacion\n");
+int menu_planetas() {
+    int seleccion;
+    do {
+        printf("Elija un planeta de los que se muestran a continuación\n");
         printf("1----Mercurio\n");
         printf("2----Venus\n");
         printf("3----Tierra\n");
@@ -29,19 +31,19 @@ menu_planetas(){
         printf("7----Urano\n");
         printf("8----Neptuno\n");
         printf("Pulse el numero correspondiente al planeta: ");
-        scanf("%d", &planeta);
-    }while(planeta<1 || planeta>9);
+        scanf("%d", &seleccion);
+    } while (seleccion < 1 || seleccion > 9);
 
-    return(planeta);
+    return (seleccion);
 }
 
-distancia_planetas(){
-
+int distancia_planetas(int seleccion){
+    
     int opcion, distancia;
     char planeta;
 
-    opcion = menu_planetas;
-    switch(opcion){
+    opcion = seleccion;
+    switch (opcion) {
         case 1:
             planeta = 'Mercurio';
             distancia = 59;
@@ -60,7 +62,7 @@ distancia_planetas(){
         break;
         case 5:
             planeta = 'Jupiter';
-            distancia =750;
+            distancia = 750;
         break;
         case 6:
             planeta = 'Saturno';
@@ -79,6 +81,6 @@ distancia_planetas(){
             distancia = 5916;
         break;
     }
-    printf("La distancia desde el sol hasta es de %d", planeta, distancia);
-    return(0);
+    printf("La distancia desde el sol hasta %c es de %d", planeta, distancia);
+    return (0);
 }
