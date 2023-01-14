@@ -9,7 +9,7 @@ int coincide_fecha(int dia_servidor, int dia_usuario, int mes_servidor, int mes_
 
     int resultado;
 
-    if((dia_usuario=dia_servidor)&&(mes_usuario=mes_servidor)&&(ano_servidor==ano_servidor)){
+    if((dia_usuario==dia_servidor)&&(mes_usuario==mes_servidor)&&(ano_servidor==ano_servidor)){
         resultado = 1;
     }
     return(resultado);
@@ -23,7 +23,7 @@ int main(){
     printf("SERVIDOR: ");
     printf("Introduzca el dia deseado: "); 
     scanf("%d", &dia_servidor); 
-    printf("Introduszca el mes deaseado: ");
+    printf("Introduzca el mes deseado: ");
     scanf("%d", &mes_servidor);
     printf("Introduzca el ano deseado: ");
     scanf("%d", &ano_servidor);
@@ -31,13 +31,13 @@ int main(){
     printf("USUARIO: ");
     printf("Introduzca el dia que cree correcto: ");
     scanf("%d", &dia_usuario);
-    printf("Introduszca el mes que cree correcto: ");
+    printf("Introduzca el mes que cree correcto: ");
     scanf("%d", &mes_usuario);
     printf("Introduzca el ano que cree correcto: ");
     scanf("%d", &ano_usuario);
 
     if(coincide_fecha(dia_servidor, dia_usuario, mes_servidor, mes_usuario, ano_servidor, ano_usuario) == 1){
-        printf("¡¡¡Enhorabuena has acertado¡¡¡");
+        printf("Enhorabuena has acertado");
     }else{
         printf("Has fallado");
     }
