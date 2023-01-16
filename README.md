@@ -37,9 +37,9 @@
   </tr>
   <tr>
     <td align="center"><b>Relación 5</b></td>
-    <td>1, 2, 3, 4, 5, 6, 7, 8</td>
+    <td>1, 3, 4, 5, 6, 7, 8</td>
     <td></td>
-    <td></td>
+    <td>2</td>
     <td></td>
 </table>
 <img src="https://media.giphy.com/media/NTur7XlVDUdqM/giphy.gif" width="300" />
