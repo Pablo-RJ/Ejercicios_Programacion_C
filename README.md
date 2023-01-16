@@ -45,3 +45,13 @@
 <img src="https://media.giphy.com/media/NTur7XlVDUdqM/giphy.gif" width="300" />
 
 <hr width="100%" color="#0000FF" style="border-style:dotted">
+
+<b>DUDAS FRECUENTES<b>
+Los punteros son una característica de lenguaje de programación en C que permiten almacenar la dirección de memoria de una variable. Esto permite a los programadores trabajar directamente con la memoria del sistema y hacer operaciones más eficientes y con menos sobrecarga en algunas situaciones.
+
+Para declarar un puntero se utiliza el caracter "*" antes del nombre de la variable. Por ejemplo, si queremos declarar un puntero a una variable entera, se escribiría "int *ptr;". Para asignar una dirección de memoria a un puntero, se utiliza el operador "&" que devuelve la dirección de una variable. Por ejemplo, "ptr = &var" asigna la dirección de memoria de "var" al puntero "ptr".
+
+Para acceder al valor almacenado en la dirección de memoria apuntada por un puntero, se utiliza el operador "*". Por ejemplo, "*ptr" devuelve el valor almacenado en la dirección apuntada por "ptr".
+
+Los punteros son útiles en muchas situaciones, como para pasar argumentos a funciones de forma eficiente, para trabajar con arreglos y para crear estructuras de datos dinámicas como listas enlazadas. Sin embargo, el uso incorrecto de los punteros puede conducir a errores de seguridad y fallos en el programa, por lo que es importante tener un buen conocimiento de cómo funcionan y cómo usarlos correctamente.
+
