@@ -3,9 +3,14 @@
 /*Realizar una funcion que compruebe si dos vectores de caracteres son iguales.*/
 
 #include <stdio.h>
-
-int Comparar_Vectores();
-
+#include <stdlib.h>
+/*****************************************************************************************/
+/*                               CABECERAS O PROTOTIPADO                                 */
+/*****************************************************************************************/
+int Comparar_Vectores(int vector_uno[], int vector_dos[]);
+/*****************************************************************************************/
+/*                                PROGRAMA PRINCIPAL                                     */
+/*****************************************************************************************/
 int main(){
 
     int vector_uno[5];
@@ -30,7 +35,9 @@ int main(){
     
     return(0);
 }
-
+/*****************************************************************************************/
+/*                                     FUNCIONES                                         */
+/*****************************************************************************************/
 int Comparar_Vectores(int vector_uno[], int vector_dos[]){
 
     int i, j, vectores;

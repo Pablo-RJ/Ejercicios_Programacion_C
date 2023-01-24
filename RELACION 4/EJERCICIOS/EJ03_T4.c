@@ -7,7 +7,7 @@
 
 #define TAM_MAX_VECTOR 100
 /*****************************************************************************************/
-/*                                   PROTOTIPADO                                         */
+/*                               CABECERAS O PROTOTIPADO                                 */
 /*****************************************************************************************/
 void Pedir_Elementos_Vector(int vector[], int util_vector);
 void Invertir_Vector(int vector[], int util_vector);
