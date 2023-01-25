@@ -5,6 +5,7 @@ e imprima por pantalla el numero mayor y menor de la matriz y sus posiciones (fi
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 #define TAM_MAX_VECTOR 100
 /*******************************************************************************************************/
