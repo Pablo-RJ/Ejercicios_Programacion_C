@@ -41,6 +41,14 @@
     <td></td>
     <td>2</td>
     <td></td>
+    </tr>
+     <tr>
+    <td align="center"><b>Exámenes</b></td>
+    <td>1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 2023</td>
+    <td></td>
+    <td>3</td>
+    <td></td>
+  </tr>
 </table>
 <img src="https://media.giphy.com/media/NTur7XlVDUdqM/giphy.gif" width="300" />
 
