@@ -44,9 +44,9 @@
     </tr>
      <tr>
     <td align="center"><b>Exámenes</b></td>
-    <td>1, 2, 6, 9, 10, 11, 2023</td>
+    <td>1, 2, 9, 10, 11, 2023</td>
     <td>11</td>
-    <td>3, 4, 5, 7, 8</td>
+    <td>3, 4, 5, 6, 7, 8</td>
     <td></td>
   </tr>
 </table>
